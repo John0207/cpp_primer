@@ -1,0 +1,17 @@
+* Exercise 1.6: Explain whether the following program fragment is legal
+ *
+	 * std::cout << "The sum of " << v1;
+	 * << " and " << v2;
+	 * << " is " << v1 + v2 << std::endl;
+	 *
+ * If the program is legal, what does it do? If the program is not legal, why
+ * not? How would you fix it?
+
+The code fragment is not legal. It has semicolons in what would otherwise be a long output statement
+that clears the buffer at the end. This will cause a compiler error because it wont understand 
+a line that starts with << with no left operator. It also does not clear cout before it would hit this error causing
+a potentially confusing error code. 
+To fix it you would need to remove semicolons after v1 and v2. 
+v1 and v2 also need to be declared before they are used.
+finally the function should end with return 0. This doesnt need to be there but is used to show 
+that the function ran properly.
