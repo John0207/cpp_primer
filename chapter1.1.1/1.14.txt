@@ -1,0 +1,17 @@
+for loops allow for more concise declaring of a counter than while loops in my opinion
+
+more correctly however, from the internet: 
+While loops can accept Boolean values:
+ 
+!var
+
+
+For loops are great when you need to iterate a certain number of times.
+While loops are great when you need to loop until a certain condition becomes false
+
+- http://www.cplusplus.com/forum/beginner/24138/
+
+and support for my theory that for loops are more concise: 
+The main difference between the for's and the while's is a matter of pragmatics: we usually use for when there is a known number of iterations, and use while constructs when the number of iterations in not known in advance. The while vs do ... while issue is also of pragmatics, the second executes the instructions once at start, and afterwards it behaves just like the simple while.
+For loops are especially nice because they are concise.
+https://stackoverflow.com/questions/2950931/for-vs-while-in-c-programming
