@@ -1,0 +1,5 @@
+// what happens to the program in this section if the values are equal?
+// what if they are all different?
+
+// if the values are all equal then only one will be counted
+// if they are all different each different value will be outputted as having a count of 1
