@@ -1,0 +1,10 @@
+What does the following code produce for output?
+
+32
+large number
+
+32
+-32
+
+0
+0
