@@ -1,0 +1,22 @@
+Determine character types
+a: character literal, wide character litreal, string lirteral, wide strign literal
+
+b: integer literal, intger unsigned literal, integer long literal, integer literal unsigned long, 
+    octal integer literal 12, hexideimal integer literal 12
+
+C: floating point literal, floating point float literal, floating point long literal
+
+D: integer literal, integer unsigned literal, floating point literal, floating point literal
+
+Explain the differences:
+
+*   a string literal is an array of character literals, compiler appends 
+    null character "\0" to every string literal.
+
+*   decimal literal has smallest type of int, long, or long long. Octal and hexideciaml; havbe the smallest 
+    type of intm unsigned int, long, unsigned long, long long, or nsigned long long. 
+
+*   Integer literals may be stored i sign types but technically are never negative but have negative
+    operand applied to them
+
+*   Floating point literals include either a decimal point or an expnent in scientific notation

@@ -1,0 +1,8 @@
+what if any are the differences between the following defienition:
+
+int month = 9, day = 7;
+
+int month = 09, day = 07;
+
+second defition is read as an octal integer literal which is invalid since octals dont have 9 digits,
+as opposed to the first which is a regular integer literal

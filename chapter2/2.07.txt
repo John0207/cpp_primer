@@ -1,0 +1,11 @@
+what values do these literals represent? what type does each have?
+a: "who goes with F\145rgus?\12"
+b:3.14e1L
+c:1024f
+d: 3.14e1L
+
+answers
+a: "who goes with ferguson?", type - string
+b: 31.4, type- long double
+c: ERROR: f suffix only valid with floating point literals
+d: 3.14 type - long double
