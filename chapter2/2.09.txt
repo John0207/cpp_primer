@@ -1,0 +1,15 @@
+explain the following definitions. 
+for those that are illegal, explain whats wrong and how to correct it.
+
+a: std::cin >> int input_value;
+
+* illegal, must initialize variable before you read into it
+
+b: int i = {3.14}; 
+* illegal, would truncate the fractional part, need to be a double
+
+c: double salary = wage = 9999.99;
+* age needs to be defined first
+
+d: double i = 3.14;
+* not illegal but value is truncated

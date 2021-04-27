@@ -8,8 +8,10 @@ int main()
     // prints 2M
     // std::cout << 2 << '\115' << std::endl;
 
-    std::cout << 2 << '\t' << '\115' << '\n'
-              << std::endl;
+    // std::cout << 2 << '\t' << '\115' << '\n'
+    //           << std::endl;
+    double i = 3.14;
+    std::cout << i << std::endl;
 
     return 0;
 }

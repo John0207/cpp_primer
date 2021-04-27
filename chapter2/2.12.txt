@@ -1,0 +1,17 @@
+which if any of the following names are invalid?
+
+a: int double = 3.14;
+*invalid cant use double as identifier as it is a type
+
+b: int _;
+* valid
+
+c: int catch-22;
+* invalid underscores no dashes
+
+d: int 1_or_2 = 1;
+* invalid because of or
+
+e: double Double = 3.14;
+* valid
+
