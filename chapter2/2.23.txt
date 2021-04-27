@@ -1,0 +1,14 @@
+given a pointer p, can you determine wether p points to a valid object or not? how or why not?
+
+in short, no.
+
+you can do things like 
+if (p != nullptr)  // preferred new C++ standard
+if (p != 0)
+if (p != NULL)     // requires cstdlib header
+if (!p)
+if (p)
+
+none of these will tell you if the object is valid if the value is not nullptr but is still invalid 
+
+https://stackoverflow.com/questions/11279715/nullptr-and-checking-if-a-pointer-points-to-a-valid-object

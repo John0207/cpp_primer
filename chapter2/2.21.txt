@@ -1,0 +1,13 @@
+//explain each of the following definitions. indicate wether any are illgeal and if so why.
+
+int i = 0;
+
+a: double* dp = &i;
+illegal, Error: `dp` can only hold pointer to `double`
+
+
+b: int *ip = i;
+illegal, pointers need to be intialized using the memory address, should be int *pi = &i;
+
+c: int *p = &i;
+legal

@@ -1,0 +1,12 @@
+// which of the following are valid definitions and why?
+a: int ival = 1.01;
+*legal but incorrect, value will be truncated
+
+a: int &rval1 = 1.01;
+* invalid, refrences must be initialized with an existing object not a value
+
+a: int &rval2 = ival;
+*valid refence initializer as long as ival exists 
+
+a: int &rval3;
+*invalid, refrences must be initialized with an existing object

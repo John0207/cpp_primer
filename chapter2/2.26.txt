@@ -1,0 +1,16 @@
+Exercise 2.26: Which of the following are legal? For those that are illegal,
+explain why.
+
+(a) const int buf;
+    illegal const objects must be initialized since they cannot be written to after
+
+(b) int cnt = 0;
+    legal
+
+(c) const int sz = cnt;
+    legal
+
+(d) //legal
+    ++cnt; 
+    //illegal to change const assuming this is from c
+    ++sz;

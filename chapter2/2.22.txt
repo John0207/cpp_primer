@@ -1,0 +1,4 @@
+assuming p is a pointer to an int explain the following problem
+
+if(p) // ... if p a nullptr, then true
+if (*p) // ... if the value p is pointing to is 0, then true;
